@@ -38,20 +38,37 @@
                     <button>Contato</button>
                 </a>
             </div>
+            <div>
+                <a href="info.html">
+                    <button>Info</button>
+                </a>
+            </div>
         </header>
         
     <!-- --------------------------------------------------------- -->
 
-        <main class="contact">
-            <div class="text">
-                <p>
-                    Email: diegokaviski14@gmail.com <br>
-                    Telefone: (41) 98786-8768 <br>
-                    LinkedIn: <a href="https://www.linkedin.com/in/diego-kaviski-33a418252/" target="_blank">https://www.linkedin.com/in/diego-kaviski-33a418252/</a> <br>
-                    GitHub: <a href="https://github.com/digkvs" target="_blank">https://github.com/digkvs</a> <br>
-                </p>
-            </div>
+ <main class="contact">
+            <h2 class="text-contact">Entre em contato</h2>
+            <form id="contact-form">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
 
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
         </main>
 
     <!-- --------------------------------------------------------- -->
@@ -66,5 +83,6 @@
         <img src="img/contact/contact-phonebook-support-svgrepo-com.svg" alt="Contact Img" class="img2">
     </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
