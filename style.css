@@ -9,6 +9,8 @@ body {
     width: 100%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(90, 86, 86);
+    font-size: 1em;
+    font-weight: 350;
 }
 
 .container {
@@ -84,6 +86,11 @@ main p {
     padding-right: 10%;
 }
 
+.contact {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .img1 {
     height: 350px;
     width: 350px;
@@ -98,4 +105,8 @@ main p {
     position: absolute;
     right: 10%;
     top: 30%;
+}
+
+a {
+  color: hotpink;
 }
