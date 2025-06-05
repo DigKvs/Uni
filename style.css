@@ -72,3 +72,30 @@ main {
     align-items: center;
     color: rgb(221, 213, 213);
 }
+
+main p {
+    padding: 15% 30%;
+    text-align: center;
+    line-height: 2.3em;
+}
+
+.portfolio {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.img1 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+
+.img2 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+}
